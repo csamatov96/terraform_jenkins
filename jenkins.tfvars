@@ -1,0 +1,11 @@
+Name = "jenkins"
+Env = "dev"
+Dept = "IT"
+Created_by = "Chyngyzkan Samatov"
+vpc = "vpc-3b472741" #us-east-1
+ami = "ami-4bf3d731" #us-east-1
+instance_type = "t2.micro"
+user = "ec2-user"
+domain = "csamatov.net"
+zone_id = "Z6XWWD56QDJWX" #Route 53 
+record = "buildserver" #from the left side everything before . called 'record'
